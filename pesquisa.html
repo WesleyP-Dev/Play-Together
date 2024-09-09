@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Play Together</title>
+</head>
+
+<body>
+    <header>
+        <h1> Play Together</h1>
+    </header>
+    <section>
+        <main>
+            <input type="text" placeholder="Digite algo aqui." id="EntradaPesquisa">
+            <button onclick="Buscar()">pesquisar</button>
+    </section>
+
+    <section class = filtroPesquisa>
+        <button id="Todos" onclick="filtrarPorCategoria('todos')">Todos</button>
+        <button id="Coop" onclick="filtrarPorCategoria('cooperativo')">Cooperativo</button>
+        <button id="RPG" onclick="filtrarPorCategoria('rpg')">RPG</button>
+        <button id="Sobrevivência" onclick="filtrarPorCategoria('sobrevivencia')">Sobrevivencia</button>
+        <button id="MundoAberto" onclick="filtrarPorCategoria('mundo aberto')">Mundo Aberto</button>
+        <button id="Quebra-cabeça" onclick="filtrarPorCategoria('quebra-cabeça')">Quebra-cabeça</button>
+        <button id="Terror" onclick="filtrarPorCategoria('terror')">Terror</button>
+    </section>
+ 
+    
+    <section class= "resultados-pesquisa" id = "resultados-pesquisa" >  
+    </section>
+    </main>
+    <footer>
+        <p>2024 - Desenvolvido por Wesley Ruis Pietro - Imersão Dev Alura com Gemini  </p>
+        <p>
+            <a href="https://github.com/WesleyP-Dev">Github</a>
+            <a href="https://www.instagram.com/melzinhoishot">Instagram</a>
+            <a href="https://www.twitter.com/melzinhoishot">X(Twitter)</a>
+        </p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="Pesquisa.js"></script>
+</body>
+
+</html>
