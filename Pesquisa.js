@@ -7,7 +7,7 @@ function Buscar() {
 
     // se campoPesquisa for vazio ou nulo
     if (campoPesquisa == "") {
-        section.innerHTML = "<h4>Por favor, digite algo para pesquisar.</h4>";
+        section.innerHTML = "<h4>Por favor, digite ou filtre algo para pesquisar.</h4>";
         return
     }
 
@@ -26,6 +26,7 @@ function Buscar() {
         if (titulo.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
             resultados += `
     <div class="item-resultado">
+        <img src="${dado.imagem}" alt="${dado.titulo}"> 
         <h2>${dado.titulo}</h2>
         <article>
             <p class="descricao-meta">${dado.descricao}</p>
@@ -50,10 +51,11 @@ function filtrarPorCategoria(categoria) {
       for (let dado of dados) { 
         resultados += `
           <div class="item-resultado">
+            <img src="${dado.imagem}" alt="${dado.titulo}"> 
             <h2>${dado.titulo}</h2>
             <article>
               <p class="descricao-meta">${dado.descricao}</p>
-              <a href="${dado.link}" target="_blank">Leia mais aqui</a>
+              <a href="${dado.link}" target="_blank">Mais informações</a>
             </article>
           </div>`;
       }
@@ -63,10 +65,11 @@ function filtrarPorCategoria(categoria) {
         if (dado.tags.toLowerCase().includes(categoria)) { 
           resultados += `
             <div class="item-resultado">
+            <img src="${dado.imagem}" alt="${dado.titulo}"> 
               <h2>${dado.titulo}</h2>
               <article>
                 <p class="descricao-meta">${dado.descricao}</p>
-                <a href="${dado.link}" target="_blank">Leia mais aqui</a>
+                <a href="${dado.link}" target="_blank">Mais informações</a>
               </article>
             </div>`;
         }

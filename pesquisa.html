@@ -15,14 +15,15 @@
     <section>
         <main>
             <input type="text" placeholder="Digite algo aqui." id="EntradaPesquisa">
-            <button onclick="Buscar()">pesquisar</button>
+            <button class = 'caixa-botao' onclick="Buscar()">Pesquisar</button>
     </section>
 
-    <section class = filtroPesquisa>
+    <section class = "filtroPesquisa"  >
         <button id="Todos" onclick="filtrarPorCategoria('todos')">Todos</button>
         <button id="Coop" onclick="filtrarPorCategoria('cooperativo')">Cooperativo</button>
+        <button id="Aventura" onclick="filtrarPorCategoria('aventura')">Aventura</button>
         <button id="RPG" onclick="filtrarPorCategoria('rpg')">RPG</button>
-        <button id="Sobrevivência" onclick="filtrarPorCategoria('sobrevivencia')">Sobrevivencia</button>
+        <button id="Sobrevivência" onclick="filtrarPorCategoria('sobrevivência')">Sobrevivencia</button>
         <button id="MundoAberto" onclick="filtrarPorCategoria('mundo aberto')">Mundo Aberto</button>
         <button id="Quebra-cabeça" onclick="filtrarPorCategoria('quebra-cabeça')">Quebra-cabeça</button>
         <button id="Terror" onclick="filtrarPorCategoria('terror')">Terror</button>
@@ -32,14 +33,20 @@
     <section class= "resultados-pesquisa" id = "resultados-pesquisa" >  
     </section>
     </main>
-    <footer>
-        <p>2024 - Desenvolvido por Wesley Ruis Pietro - Imersão Dev Alura com Gemini  </p>
-        <p>
-            <a href="https://github.com/WesleyP-Dev">Github</a>
-            <a href="https://www.instagram.com/melzinhoishot">Instagram</a>
-            <a href="https://www.twitter.com/melzinhoishot">X(Twitter)</a>
-        </p>
-    </footer>
+        <footer>
+            <p>2024 - Desenvolvido por Wesley Ruis Pietro - Imersão Dev Alura com Gemini  </p>
+            <p class="icon"> 
+                <a href="https://github.com/WesleyP-Dev" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=52539&format=png&color=000000" alt="GitHub"> 
+                </a>
+                <a href="sla.com" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=44019&format=png&color=000000"> 
+                </a>
+                <a href="https://x.com/zNezlyn" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=FTNsGbr6VVV9&format=png&color=000000" alt="Ícone do Twitter">
+                </a>
+            </p>
+        </footer>
     <script src="dados.js"></script>
     <script src="Pesquisa.js"></script>
 </body>
