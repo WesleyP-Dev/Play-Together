@@ -112,7 +112,7 @@ let dados = [
         link: "https://store.steampowered.com/app/413150/Stardew_Valley/",
         tags: "Todos Cooperativo Avetura ",
         imagem: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0d55ae41-e76d-4375-b2d9-5b40b36a2f82/dehzxxr-72b13630-0a09-4aa5-b442-1d752c6f6971.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBkNTVhZTQxLWU3NmQtNDM3NS1iMmQ5LTViNDBiMzZhMmY4MlwvZGVoenh4ci03MmIxMzYzMC0wYTA5LTRhYTUtYjQ0Mi0xZDc1MmM2ZjY5NzEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gQRDyl3DhBW2uywDMwt8CD4hYRqI5JG2GWHBBGNphJY"
-    }, 
+    },
     {
         titulo: "Raft",
         descricao: "Raft é um jogo de sobrevivência cooperativo onde os jogadores começam em uma pequena jangada no meio do oceano. Eles devem coletar recursos flutuantes, expandir sua jangada e sobreviver aos perigos do mar.",

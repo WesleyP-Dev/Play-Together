@@ -1,194 +1,288 @@
-
-
 /* Estilos gerais para elementos comuns */
 body {
-    font-family: "Nerko One", cursive;
-    background-color: #DDDDDD;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-image: url('https://wallpapers.com/images/featured/ultra-hd-wazf67lzyh5q7k32.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    backdrop-filter: blur(0px); /* Efeito blur pode impactar desempenho - considere remover ou usar imagem com blur */
-    -webkit-backdrop-filter: blur(60px); 
+  font-family: "Nerko One", cursive;
+  background-color: #dddddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://wallpapers.com/images/featured/ultra-hd-wazf67lzyh5q7k32.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(
+    0px
+  ); /* Efeito blur pode impactar desempenho - considere remover ou usar imagem com blur */
+  -webkit-backdrop-filter: blur(60px);
 }
 
 /* arrumando o titulo */
 .tituloIndex {
-    margin-left: 90px; 
-    margin-top: -150px;
+  margin-left: 90px;
+  margin-top: -150px;
 }
 
-h1, h4 { /* Agrupando estilos comuns de h1 e h4 */
-    text-align: center;
-    border: none; 
-    border-radius: 1.5rem;
-    padding: 10px 20px; /* Usando shorthand para padding */
-    color: #ffffff; 
-    background-color: #304458;
+h1,
+h4 {
+  /* Agrupando estilos comuns de h1 e h4 */
+  text-align: center;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 10px 20px; /* Usando shorthand para padding */
+  color: #ffffff;
+  background-color: #304458;
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-top: -30px;
-    letter-spacing: 0.4rem;
-    width: 250px;
-    border: 0.5px solid black; 
-    margin-right: 120px;
+  font-size: 2.5rem;
+  margin-top: -30px;
+  letter-spacing: 0.4rem;
+  width: 250px;
+  border: 0.5px solid black;
+  margin-right: 120px;
 }
 
-
 h4 {
-    font-size: 1.5rem; 
-    margin-bottom: 1rem;
-    width: 300px;
-    background-color: #454a55; /* Cor diferente para diferenciar de h1 */
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  width: 300px;
+  background-color: #454a55; /* Cor diferente para diferenciar de h1 */
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 3rem; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
 /* Estilizando inputs e botões de forma consistente */
-section input, 
-section button, 
-.caixa-botao { /* Considere usar a mesma classe para botões visualmente iguais */
-    font-family: "Nerko One", cursive;
-    border: none;
-    border-radius: 1.5rem;
-    padding: 0.8rem 1.2rem; 
-    font-size: 1rem;
-    cursor: pointer;
-    text-align: center; /* Garante texto centralizado em botões */
-text-decoration: none;
+section input,
+section button,
+.caixa-botao {
+  /* Considere usar a mesma classe para botões visualmente iguais */
+  font-family: "Nerko One", cursive;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center; /* Garante texto centralizado em botões */
+  text-decoration: none;
 }
 
 section input {
-    width: 30rem; 
-    margin-bottom: 1rem;
-    color: #000000;
-    box-sizing: border-box;
+  width: 30rem;
+  margin-bottom: 1rem;
+  color: #000000;
+  box-sizing: border-box;
 }
 
 section button,
 .caixa-botao {
-    background-color: #30475e; 
-    color: #F5F7F8; 
+  background-color: #30475e;
+  color: #f5f7f8;
 }
 
 .indexTextPrimaria {
-    margin-top: -2px;
-    background-color: #30475e; 
-    color: #F5F7F8; 
-    border: none;
-    border-radius: 1.5rem;
-    padding: 0.8rem 1.2rem; 
-    font-size: 1.1rem;
-    cursor: pointer;
-    text-align: center; 
+  margin-top: -2px;
+  background-color: #30475e;
+  color: #f5f7f8;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-align: center;
 }
 
 /* arrumando o botão iniciar */
-section a main, .caixa-botao {
-    margin-right: 30px; 
-
+section a main,
+.caixa-botao {
+  margin-right: 30px;
 }
 
 .abaixaCorno {
-    margin-top: 10px; 
+  margin-top: 10px;
 }
 
 /* Estilizando os botões de filtro */
-.filtroPesquisa { 
-    margin-top: -30px;
-    padding: 5px 10px;
-    font-size: 0.6rem;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: block; /* Garante que ocupe a largura total */
-    transition: background-color 0.3s ease;
-    user-select: none;
+.filtroPesquisa {
+  margin-top: -30px;
+  padding: 5px 10px;
+  font-size: 0.6rem;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block; /* Garante que ocupe a largura total */
+  transition: background-color 0.3s ease;
+  user-select: none;
 }
 
 /* Estilizando a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 85%;
-    max-width: 1360px;
-    height: 46vh;
-    overflow-y: auto; 
-    margin-top: 1rem; 
-    padding: 1rem;
-    border-radius: 0.6rem; 
+  width: 85%;
+  max-width: 1360px;
+  height: 46vh;
+  overflow-y: auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.6rem;
 }
 
 /* Estilizando cada item de resultado */
 .item-resultado {
-    background: #FFFFFF; 
-    border-radius: 0.6rem; 
-    padding: 1rem; 
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  background: #ffffff;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .item-resultado img {
-    width: 130px;
-    height: auto;
-    float: left; 
-    margin-right: 10px;
+  width: 130px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
 }
 
 .item-resultado h2 {
-    font-size: 1.5rem; 
-    color: #222831; 
+  font-size: 1.5rem;
+  color: #222831;
 }
 
 .item-resultado a {
-    text-decoration: none; 
-    color: #38648d; 
+  text-decoration: none;
+  color: #38648d;
 }
 
 .item-resultado a:hover {
-    text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .descricao-meta {
-    color: #454a55; 
-    margin: 0.5rem 0; 
+  color: #454a55;
+  margin: 0.5rem 0;
 }
-
-
 
 /* Estilizando o rodapé da página */
 footer {
-    background-color: #30475e; 
-    color: #ffffff; 
-    text-align: center; 
-    padding: 0;
-    width: 100%; 
-    position: absolute; 
-    bottom: 0;
-    font-size: 1rem; 
+  background-color: #30475e;
+  color: #ffffff;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 1rem;
 }
 
 .icon {
-    display: flex;               
-    justify-content: center;      
-    gap: 8px;                   
-} 
-
-.icon a img {
-  width: 30px; 
-  height: auto; 
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
+.icon a img {
+  width: 30px;
+  height: auto;
+}
 
+@media (max-width: 768px) {
+  /* Estilos para telas menores que 768px */
+  h1 {
+    font-size: 2rem;
+    margin-top: -20px;
+    width: 200px;
+    margin-right: 80px;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    width: 250px;
+  }
+
+  section input {
+    width: 20rem;
+  }
+
+  section button,
+  .caixa-botao {
+    font-size: 0.8rem;
+  }
+
+  .indexTextPrimaria {
+    font-size: 0.9rem;
+  }
+
+  .filtroPesquisa {
+    font-size: 0.5rem;
+  }
+
+  .resultados-pesquisa {
+    height: 40vh;
+  }
+
+  .item-resultado img {
+    width: 100px;
+  }
+
+  .item-resultado h2 {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Estilos para telas menores que 480px */
+  h1 {
+    font-size: 1.5rem;
+    margin-top: -10px;
+    width: 150px;
+    margin-right: 60px;
+  }
+
+  h4 {
+    font-size: 1rem;
+    width: 200px;
+  }
+
+  section input {
+    width: 15rem;
+  }
+
+  section button,
+  .caixa-botao {
+    font-size: 0.6rem;
+  }
+
+  .indexTextPrimaria {
+    font-size: 0.7rem;
+  }
+
+  .filtroPesquisa {
+    font-size: 0.4rem;
+  }
+
+  .resultados-pesquisa {
+    height: 35vh;
+  }
+
+  .item-resultado img {
+    width: 80px;
+  }
+
+  .item-resultado h2 {
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 0.6rem;
+  }
+}
