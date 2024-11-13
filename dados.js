@@ -32,7 +32,7 @@ let dados = [
     {
         titulo: "Rocket League",
         descricao: "compita no jogo estilo arcade híbrido de futebol e caos automobilístico! Desbloqueie itens no Rocket Pass, suba nos rankings competitivos, participe de torneios, complete desafios, tire vantagem da progressão multiplataforma e muito mais! O campo está esperando! Chute ao gol!",
-        link: "https://store.steampowered.com/app/252950/Rocket_League/",
+        link: "https://store.epicgames.com/pt-BR/p/rocket-league",
         tags: "Todos Competitivo",
         imagem: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Rocket_League_coverart.jpg"
     },
@@ -60,7 +60,7 @@ let dados = [
     {
         titulo: "Minecraft",
         descricao: "Minecraft é um jogo de construção e sobrevivência onde os jogadores podem explorar mundos infinitos, construir estruturas e sobreviver contra criaturas perigosas.",
-        link: "https://store.steampowered.com/app/323910/Minecraft/",
+        link: "https://www.minecraft.net/pt-br/store/minecraft-deluxe-collection-pc",
         tags: "Todos Cooperativo Mundo Aberto Sobrevivência Aventura",
         imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZvYDPXIl43fFZV5gNO8vpLNV901rfeO6nMg&s"
     },
